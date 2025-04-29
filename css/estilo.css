@@ -23,15 +23,9 @@ body, html {
 	width: 100%;
 	height: auto;
 	min-height: 500px;
-	background: darkred url("../imagens/bgimg-1.jpg") fixed no-repeat center;
+	background: darkred url("../imagens/a-estrela-sobe.jpg") fixed no-repeat center;
     background-size: cover;
 }
-
-	#menu {
-		width: 100%;
-		position: fixed;
-		background-color: tomato;
-	}
 
 	#logo {
 		max-height: 25px;
@@ -78,6 +72,8 @@ body, html {
 	}
 
 		#sobre img {
+			width: 100%;
+			max-width: 600px;
 			margin-right: 20px;
 			border-radius: 10px;
 			float:left;
