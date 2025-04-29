@@ -6,22 +6,22 @@ body, html {
 	margin: 0;
 	scroll-behavior: smooth;
 	font-family: Arial, "sans-serif";
-}
+	}
 
 #topo {
 	width: 100%;
 	height: auto;
 	min-height: 500px;
 	background: url("../imagens/a-estrela-sobe.jpg") fixed no-repeat center;
-    background-size: cover;
-}
+    	background-size: cover;
+	}
 
 	#banner {
 		height: 500px;
 		display: flex;
 		justify-content: center;
 		align-items:center;
-	}
+		}
 
 		#nome {
 			padding-top: 16%;
@@ -38,7 +38,7 @@ body, html {
 
 			#nome h1 {text-shadow: 5px 5px 5px black;}
 
-			#nome h1 img{
+			#assinatura{
 				width:100%;
 				max-width:800px;
 			}
