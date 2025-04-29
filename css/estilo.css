@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html {
+    height: 100%;
+	margin: 0;
+	scroll-behavior: smooth;
+	font-family: Arial, "sans-serif";
+}
+
+.titulo {
+	font-family: "Bree Serif", serif;
+	font-weight: normal;
+	margin: 0;
+	padding-top: 50px;
+	font-size: 3em;
+	text-align: center;
+}
+
+.texto {font-size:24px;}
+
+#topo {
+	width: 100%;
+	height: auto;
+	min-height: 500px;
+	background: darkred url("../imagens/bgimg-1.jpg") fixed no-repeat center;
+    background-size: cover;
+}
+
+	#menu {
+		width: 100%;
+		position: fixed;
+		background-color: tomato;
+	}
+
+	#logo {
+		max-height: 50px;
+		height:100%;
+		padding: 0.5%;
+		float: left;
+		box-sizing: border-box;
+	}
+
+	#banner {
+		height: 500px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+		#nome {
+			font-family: "Bree Serif", serif;
+			font-weight: bold;
+			font-style: normal;
+			font-size: 5em;
+/*			-webkit-text-stroke-width: 10px;
+			-webkit-text-stroke-color: #fff;
+			paint-order: stroke fill;*/
+			text-align: center;
+			color: #04AA6D;
+		}
+
+#principal {
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	box-sizing: border-box;
+	min-height: 400px;
+	background-color: oran gered;
+}
+
+	#sobre {
+		border-radius: 30px;
+		padding: 20px;
+		box-sizing: border-box;
+		overflow: hidden;
+		background-color:#04AA6D;
+	}
+
+		#sobre img {
+			margin-right: 20px;
+			border-radius: 10px;
+			float:left;
+		}
+
+	#curriculo {
+		border-radius: 10px;
+		padding: 20px;
+		box-sizing: border-box;
+		background-color:aquamarine;}
+	#servicos {
+		border-radius: 10px;
+		padding: 20px;
+		box-sizing: border-box;
+		background-color: #04AA6D;}
+	#produtos {
+		border-radius: 10px;
+		padding: 20px;
+		box-sizing: border-box;
+		background-color:aquamarine;}
+
+	#portifolio {
+		border-radius: 10px;
+		padding: 20px;
+		box-sizing: border-box;
+		background-color:#04AA6D;}
+
+		#portifolio article {
+			display: flex;
+			justify-content:space-evenly;
+		}
+		
+	#galeria {
+		border-radius: 10px;
+		padding: 20px;
+		box-sizing: border-box;
+		background-color:aquamarine;}
+	#contato{
+		border-radius: 10px;		
+		padding: 20px;
+		box-sizing: border-box;
+		background-color:#04AA6D;}
+
+#rodape {
+	width: 100%;
+	height: auto;
+	min-height: 400px;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color:#333;
+}
