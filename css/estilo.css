@@ -74,7 +74,7 @@ body, html {
 	#sobre {}
 
 		#sobre img {
-			midth:40%;
+			width:40%;
 			margin-right: 24px;
 			border-radius: 10px;
 		}
