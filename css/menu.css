@@ -20,7 +20,6 @@
 
 #menu a {
 	float: left;
-	color: black;
 	text-align: center;
 	padding: 8px;
 	text-decoration: none;
@@ -29,9 +28,10 @@
 	font-family: "Bree Serif", serif;
 	font-style: normal;
 	font-size: 1.1em;
+	color: #730E16;
 	}
 
 #menu a:hover {
-	background-color: #04AA6D;
+	background-color: #F2695C;
 	color: white;
 	}
