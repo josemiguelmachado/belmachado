@@ -8,10 +8,11 @@
 
 .header {
   overflow: hidden;
-  background-color: darkolivegreen;
+  background-color: white;
  /* padding: 20px 10px;*/
 padding: 0.5%;
 float: right;
+  border-radius: 8px;
 }
 
 .header a {
@@ -31,7 +32,7 @@ float: right;
 }
 
 .header a:hover {
-  background-color: #ddd;
+  background-color: #04AA6D;
   color: black;
 }
 
@@ -44,7 +45,7 @@ float: right;
   float: right;
 }
 
-@media screen and (max-width: 500px) {
+/*@media screen and (max-width: 500px) {
   .header a {
     float: none;
     display: block;
@@ -54,4 +55,4 @@ float: right;
   .header-right {
     float: none;
   }
-}
+}*/

@@ -34,7 +34,7 @@ body, html {
 	}
 
 	#logo {
-		max-height: 50px;
+		max-height: 25px;
 		height:100%;
 		padding: 0.5%;
 		float: left;
