@@ -8,17 +8,6 @@ body, html {
 	font-family: Arial, "sans-serif";
 }
 
-.titulo {
-	font-family: "Bree Serif", serif;
-	font-weight: normal;
-	margin: 0;
-	padding-top: 50px;
-	font-size: 3em;
-	text-align: center;
-}
-
-.texto {font-size:24px;}
-
 #topo {
 	width: 100%;
 	height: auto;
@@ -27,22 +16,15 @@ body, html {
     background-size: cover;
 }
 
-	#logo {
-		max-height: 25px;
-		height:100%;
-		padding: 0.5%;
-		float: left;
-		box-sizing: border-box;
-	}
-
 	#banner {
 		height: 500px;
 		display: flex;
 		justify-content: center;
-		align-items: center;
+		align-items:center;
 	}
 
 		#nome {
+			padding-top: 12%;
 			font-family: "Bree Serif", serif;
 			font-weight: bold;
 			font-style: normal;
@@ -57,65 +39,49 @@ body, html {
 #principal {
 	width: 100%;
 	height: auto;
-	padding: 20px;
+	padding: 8px;
 	box-sizing: border-box;
 	min-height: 400px;
-	background-color: oran gered;
+	background-color: orangered;
 }
 
-	#sobre {
-		border-radius: 30px;
-		padding: 20px;
+
+.titulo {
+	font-family: "Bree Serif", serif;
+	font-weight: normal;
+	margin: 0;
+	padding-top: 50px;
+	font-size: 2em;
+	text-align: center;
+}
+
+.cols{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.conteudo{
+		border-radius: 20px;
+		padding: 10px;
 		box-sizing: border-box;
-		overflow: hidden;
-		background-color:#04AA6D;
-	}
+		background-color:#04AA6D;	
+}
+
+	#sobre {}
 
 		#sobre img {
-			width: 100%;
-			max-width: 600px;
-			margin-right: 20px;
+			midth:40%;
+			margin-right: 24px;
 			border-radius: 10px;
-			float:left;
 		}
 
-	#curriculo {
-		border-radius: 10px;
-		padding: 20px;
-		box-sizing: border-box;
-		background-color:aquamarine;}
-	#servicos {
-		border-radius: 10px;
-		padding: 20px;
-		box-sizing: border-box;
-		background-color: #04AA6D;}
-	#produtos {
-		border-radius: 10px;
-		padding: 20px;
-		box-sizing: border-box;
-		background-color:aquamarine;}
-
-	#portifolio {
-		border-radius: 10px;
-		padding: 20px;
-		box-sizing: border-box;
-		background-color:#04AA6D;}
-
-		#portifolio article {
-			display: flex;
-			justify-content:space-evenly;
-		}
-		
-	#galeria {
-		border-radius: 10px;
-		padding: 20px;
-		box-sizing: border-box;
-		background-color:aquamarine;}
-	#contato{
-		border-radius: 10px;		
-		padding: 20px;
-		box-sizing: border-box;
-		background-color:#04AA6D;}
+	#curriculo {}
+	#servicos {}
+	#produtos {}
+	#portifolio {}
+	#galeria {}
+	#contato{}
 
 #rodape {
 	width: 100%;

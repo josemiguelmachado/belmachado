@@ -1,8 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-
 #menu {
 	overflow: hidden;
 	background-color:#EDEDED;
@@ -11,36 +9,29 @@
 	position: fixed;
 	top: 10px;
 	right: 0;
-}
+	}
+
+	#inicio {
+		max-height: 20px;
+		height:100%;
+		padding: 0.5%;
+		box-sizing: border-box;
+		}
 
 #menu a {
 	float: left;
 	color: black;
 	text-align: center;
-	padding: 12px;
+	padding: 8px;
 	text-decoration: none;
 	line-height: 25px;
 	border-radius: 4px;
 	font-family: "Bree Serif", serif;
 	font-style: normal;
 	font-size: 1.1em;
-}
-
-#menu a.logo {
-  font-size: 25px;
-  font-weight: bold;
-}
+	}
 
 #menu a:hover {
-  background-color: #04AA6D;
-  color: white;
-}
-
-#menu a.active {
-  background-color: dodgerblue;
-  color: white;
-}
-
-#menu-direita {
-  float: right;
-}
+	background-color: #04AA6D;
+	color: white;
+	}
