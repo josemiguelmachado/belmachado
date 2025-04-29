@@ -38,6 +38,11 @@ body, html {
 
 			#nome h1 {text-shadow: 5px 5px 5px black;}
 
+			#nome img{
+				width:100%
+				max-width:800px;
+			}
+
 #principal {
 	width: 100%;
 	height: auto;
