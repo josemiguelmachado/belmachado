@@ -1,47 +1,38 @@
 @charset "utf-8";
 /* CSS Document */
 
-body, html {
+body, html, p {
     height: 100%;
 	margin: 0;
 	scroll-behavior: smooth;
-	font-family: Arial, "sans-serif";
-	}
+	font-family: Georgia, "serif"
+}
 
 #topo {
 	width: 100%;
 	height: auto;
 	min-height: 500px;
 	background: url("../imagens/a-estrela-sobe.jpg") fixed no-repeat center;
-    	background-size: cover;
-	}
+    background-size: cover;
+}
 
 	#banner {
 		height: 500px;
 		display: flex;
 		justify-content: center;
-		align-items:center;
-		}
+		align-items:flex-end;
+	}
 
 		#nome {
 			padding-top: 16%;
-			font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-			font-weight:100;
+			font-family: "georgia", "serif";
+			font-weight: 100;
 			font-style: normal;
 			font-size: 2em;
-			/*-webkit-text-stroke-width: 4px;
-			-webkit-text-stroke-color: #000;
-			paint-order: stroke fill;*/
+			text-shadow: 2px 2px 4px black;
 			text-align: center;
-			color: #EDEDED;
-			}
-
-			#nome h1 {text-shadow: 5px 5px 5px black;}
-
-			#assinatura{
-				width:100%;
-				max-width:800px;
-			}
+			color: #EDEDED;	
+		}
 
 #principal {
 	width: 100%;
@@ -52,35 +43,50 @@ body, html {
 	background-color: #EDEDED;
 }
 
+.conteudo{
+		width: 100%;
+		border-radius: 20px;
+		padding: 50px 20px;
+		box-sizing: border-box;
+		background-color:#F2695C;	
+}
+
 .titulo {
 	font-family: "Bree Serif", serif;
 	font-weight: normal;
 	margin: 0;
-	padding-top: 50px;
-	font-size: 2em;
+	padding: 36px;
+	font-size: 3em;
 	text-align: center;
+	column-span: all;
 	color: #730E16;
 }
 
 .cols{
-	display: flex;
-	justify-content: center;
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	columns:200px 2;
+	column-gap:20px;
 	align-items: center;
 }
 
-.conteudo{
-		border-radius: 20px;
-		padding: 10px;
-		box-sizing: border-box;
-		background-color: #F2695C;	
+.texto{
+	margin: 0;
+	font-size: 1.5em;
+	line-height: 1.6em;
+	color:#1F0F26;
 }
 
 	#sobre {}
 
-		#sobre img {
-			width:40%;
-			margin-right: 24px;
-			border-radius: 10px;
+		.cols img {
+			width:100%;
+			max-width: 350px;
+			margin: auto;
+			padding-right: 20px;
+			padding-bottom: 20px;
+			border-radius: 50%;
 		}
 
 	#curriculo {}
