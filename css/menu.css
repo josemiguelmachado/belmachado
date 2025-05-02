@@ -2,14 +2,15 @@
 /* CSS Document */
 
 #menu {
-	overflow: hidden;
-	background-color:#EDEDED;
+	margin-left: 10px;
+	border-radius: 8px 0  0 8px;
 	padding: 4px;
 	box-sizing: border-box;
-	border-radius: 8px 0  0 8px;
 	position: fixed;
 	top: 10px;
 	right: 0;
+	overflow: hidden;
+	background-color:#EDEDED;
 	}
 
 	#inicio {
@@ -39,3 +40,31 @@
 	background-color: #F2695C;
 	color: white;
 	}
+
+/*------------Início Menu ÍCONES--------------*/
+#menu-icones ul{
+	padding:0;
+	list-style: none;
+	display: inline-block;
+	}
+
+#menu-icones ul li{
+	padding: 5px 10px;
+	display:inline-block;}
+
+#menu-icones img{
+	width:25px;
+	border-radius: 50%;
+	border: 4px solid #F2CEA2;
+	padding: 2px;
+	}
+
+#menu-icones img:hover{border: 4px solid #F2695C;}
+
+
+
+
+
+
+
+
