@@ -24,10 +24,7 @@ body, html, p {
 		align-items: flex-end;
 		}
 
-		#logo{
-			width:100%;
-			background-color:greenyellow;
-			}
+		#logo{width:100%;}
 
 		#nome {
 			padding-top: 16%;
