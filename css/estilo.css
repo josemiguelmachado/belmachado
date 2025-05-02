@@ -69,7 +69,7 @@ body, html, p {
 	width: 100%;
 	max-width: 1000px;
 	margin: 0 auto;
-	columns:400px 2;
+	columns:390px 2;
 	column-gap:20px;
 	align-items: center;
 	}
