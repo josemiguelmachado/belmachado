@@ -6,7 +6,7 @@ body, html, p {
 	margin: 0;
 	scroll-behavior: smooth;
 	font-family: Georgia, "serif"
-}
+	}
 
 #topo {
 	width: 100%;
@@ -14,14 +14,20 @@ body, html, p {
 	min-height: 500px;
 	background: url("../imagens/a-estrela-sobe.jpg") fixed no-repeat center;
     background-size: cover;
-}
+	background-color: #1F0F26;
+	}
 
 	#banner {
 		height: 500px;
 		display: flex;
 		justify-content: center;
-		align-items:flex-end;
-	}
+		align-items: flex-end;
+		}
+
+		#logo{
+			width:100%;
+			background-color:greenyellow;
+			}
 
 		#nome {
 			padding-top: 16%;
@@ -32,7 +38,7 @@ body, html, p {
 			text-shadow: 2px 2px 4px black;
 			text-align: center;
 			color: #EDEDED;	
-		}
+			}
 
 #principal {
 	width: 100%;
@@ -41,7 +47,7 @@ body, html, p {
 	box-sizing: border-box;
 	min-height: 400px;
 	background-color: #EDEDED;
-}
+	}
 
 .conteudo{
 		width: 100%;
@@ -49,7 +55,7 @@ body, html, p {
 		padding: 50px 20px;
 		box-sizing: border-box;
 		background-color:#F2695C;	
-}
+		}
 
 .titulo {
 	font-family: "Bree Serif", serif;
@@ -60,23 +66,23 @@ body, html, p {
 	text-align: center;
 	column-span: all;
 	color: #730E16;
-}
+	}
 
 .cols{
 	width: 100%;
 	max-width: 1000px;
 	margin: 0 auto;
-	columns:200px 2;
+	columns:400px 2;
 	column-gap:20px;
 	align-items: center;
-}
+	}
 
 .texto{
 	margin: 0;
 	font-size: 1.5em;
 	line-height: 1.6em;
 	color:#1F0F26;
-}
+	}
 
 	#sobre {}
 
