@@ -65,7 +65,7 @@ body, html, p {
 	color: #730E16;
 	}
 
-.cols{
+.cols {
 	width: 100%;
 	max-width: 1000px;
 	margin: 0 auto;
@@ -74,7 +74,9 @@ body, html, p {
 	align-items: center;
 	}
 
-.texto{
+	.alinha {text-align: center;}
+
+.texto {
 	margin: 0;
 	font-size: 1.5em;
 	line-height: 1.6em;
