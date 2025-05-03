@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-body, html, p {
+body, html {
     height: 100%;
 	margin: 0;
 	scroll-behavior: smooth;
@@ -103,7 +103,6 @@ body, html, p {
 #rodape {
 	width: 100%;
 	height: auto;
-	min-height: 400px;
 	padding: 20px;
 	text-align: center;
 	color: #FFF;
@@ -118,3 +117,37 @@ body, html, p {
 		color:#F2CEA2;
 		}
 
+/*------ Início das páginas EXTRAS ------*/
+
+	.extras {
+		width: 100%;
+		max-width: 1000px;
+		margin: 0 auto;
+		}
+
+	.extra-texto {
+		margin: 0;
+		font-size: 1em;
+		line-height: 1.2em;
+		color:#1F0F26;
+		}
+
+	.extra-subtitulo2 {
+		font-family: "Bree Serif", serif;
+		font-weight: normal;
+		margin: 0;
+		padding: 36px;
+		font-size: 2em;
+		color: #730E16;
+		}
+
+	.extra-subtitulo3 {
+		font-family: "Bree Serif", serif;
+		font-weight: normal;
+		margin: 0;
+		padding: 24px 42px;
+		font-size: 1.2em;
+		color: #730E16;
+		}
+
+/*------ Fim das páginas EXTRAS ------*/
