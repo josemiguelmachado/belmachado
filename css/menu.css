@@ -2,6 +2,7 @@
 /* CSS Document */
 
 #menu {
+	z-index: 1;
 	margin-left: 16px;
 	border-radius: 8px 0  0 8px;
 	padding: 4px;

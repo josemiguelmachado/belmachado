@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------ Início DESKTOP ------*/
+@media screen and (min-width:1024px){
+
+.produtos {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+
+.cartao {
+	max-width: 300px;
+	margin: auto 1%;
+	border-radius: 16px;
+	padding: 8px;
+	box-sizing: border-box;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: #EDEDED;
+	}
+
+	.cartao img{border-radius: 8px;}
+
+.valor {
+	color: grey;
+	font-size: 22px;
+	}
+}/*------ Fim DESKTOP ------*/
+
+/*------ Início TABLET ------*/
+@media screen and (min-width:600px) and (max-width:1023px){
+
+.produtos {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    overflow: hidden;
+    }
+
+.cartao {
+	max-width: 48%;
+	margin: 2% 1%;
+	border-radius: 16px;
+	padding: 8px;
+	float:left;
+	box-sizing: border-box;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: #EDEDED;
+	}
+
+	.cartao img{border-radius: 8px;}
+
+.valor {
+	color: grey;
+	font-size: 22px;
+	}
+
+}/*------ Fim TABLET ------*/
+
+/*------ Início SMARTPHONE ------*/
+@media screen and (max-width:599px){
+
+.produtos {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    }
+
+.cartao {
+	max-width: 98%;
+	margin:2% 1%;
+	border-radius: 16px;
+	padding: 8px;
+	box-sizing: border-box;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: #EDEDED;
+	}
+
+	.cartao img{border-radius: 8px;}
+
+.valor {
+	color: grey;
+	font-size: 22px;
+	}
+}/*------ Fim SMARTPHONE ------*/
+	
+	
+	
