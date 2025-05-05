@@ -31,11 +31,11 @@ body, html {
 
 		#nome {
 			padding-top: 16%;
-			font-family: "georgia", "serif";
-			font-weight: 100;
+			font-family: "Bree Serif", serif;
+			font-weight: normal;
 			font-style: normal;
 			font-size: 2em;
-			text-shadow: 2px 2px 4px black;
+			text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 			text-align: center;
 			color: #F2CEA2;
 			}
@@ -119,6 +119,33 @@ body, html {
 		text-decoration: none;
 		color:#F2CEA2;
 		}
+
+    .rodape-subtitulo2 {
+        font-family: "Bree Serif", serif;
+        font-weight: normal;
+        margin: 0;
+        padding: 36px;
+        font-size: 2em;
+        color: #EDEDED;
+        }
+
+    .rodape-subtitulo3 {
+        font-family: "Bree Serif", serif;
+        font-weight: normal;
+        margin: 0;
+        padding: 24px 42px;
+        font-size: 1.2em;
+        color: #F2CEA2;
+        }
+
+#dev {
+	font-family: Georgia, "serif";
+	font-weight: normal;
+	font-size: 0.6em;
+	text-align:right;
+	}
+
+#dev a {color: #EDEDED;}
 
 /*------ Início das páginas EXTRAS ------*/
 
