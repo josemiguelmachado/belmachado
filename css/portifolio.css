@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------ Início DESKTOP ------*/
+@media screen and (min-width:1024px){
+
+.portifolio {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    overflow: hidden;
+    }
+
+.caso {
+	width: 48%;
+	margin: 1%;
+	border-radius: 16px;
+	padding: 8px;
+	box-sizing: border-box;
+	float: left;
+	text-align: left;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: #EDEDED;
+	}
+
+	.caso img {
+		max-width: 200px;
+		margin-right: 20px;
+		margin-bottom: 4px;
+		float: left;
+		border-radius: 8px;
+		}
+	
+	.servico {
+		font-size: 0.8em;
+		color: grey;
+		}
+	
+	.port-bt {text-align: right;}
+
+		.port-bt a {color: #730E16;}
+	
+		.port-bt a:hover {color: #F2695C;}
+	
+}/*------ Fim DESKTOP ------*/
+
+/*------ Início TABLET ------*/
+@media screen and (min-width:600px) and (max-width:1023px){
+
+.portifolio {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    }
+
+.caso {
+	width: 98%;
+	margin: 1%;
+	border-radius: 16px;
+	padding: 8px;
+	float: left;
+	box-sizing: border-box;
+	text-align: left;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: #EDEDED;
+	}
+
+	.caso img {
+		max-width: 200px;
+		margin-right: 20px;
+		float: left;
+		border-radius: 8px;
+		}
+
+	.servico {
+		font-size: 0.8em;
+		color: grey;
+		}
+	
+	.port-bt {text-align: right;}
+
+		.port-bt a {color: #730E16;}
+	
+		.port-bt a:hover {color: #F2695C;}
+	
+
+}/*------ Fim TABLET ------*/
+
+/*------ Início SMARTPHONE ------*/
+@media screen and (max-width:599px){
+
+.produtos {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    }
+
+.caso {
+	max-width: 98%;
+	margin:2% 1%;
+	border-radius: 16px;
+	padding: 8px;
+	box-sizing: border-box;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: #EDEDED;
+	}
+
+	.caso img{border-radius: 8px;}
+
+	.servico {
+		font-size: 0.8em;
+		color: grey;
+		}
+	
+	.port-bt {text-align: right;}
+
+		.port-bt a {color: #730E16;}
+	
+		.port-bt a:hover {color: #F2695C;}
+
+}/*------ Fim SMARTPHONE ------*/
+	
+	
+	
