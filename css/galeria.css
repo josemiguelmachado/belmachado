@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+.galeria {
+	width: 100%;
+	max-width: 1600px;
+	margin: 0 auto; /* Centraliza o contêiner */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; /* Centraliza o conteúdo */
+	}
+
+.imagem {
+	margin: 1%;
+	border-radius: 8px;
+	padding: 8px;
+	width: calc(23% - 20px); /* Divide em 4 colunas, menos o espaçamento */
+	overflow: hidden;
+	background-color: #EDEDED;
+	}
+
+.imagem img {
+	width: 100%;
+	border-radius: 8px;
+	height: auto;
+	transition: transform 0.5s; /* Efeito de zoom no hover */
+	}
+
+.imagem:hover img {transform: scale(1.05);}
+
+.legenda{text-align: center;}
+
+@media screen and (max-width: 1023px) { /* Para telas menores, como tablets */
+	
+	.imagem {width: calc(50% - 20px);} /* Reduz para 2 colunas */
+}
+
+@media screen and (max-width: 599px) { /* Para telas menores, como celulares */
+	.imagem {width: 100%; }/* Uma coluna por linha */
+}
