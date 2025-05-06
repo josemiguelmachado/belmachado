@@ -32,7 +32,7 @@
 
 @media screen and (max-width: 1023px) { /* Para telas menores, como tablets */
 	
-	.imagem {width: calc(50% - 20px);} /* Reduz para 2 colunas */
+	.imagem {width: calc(48% - 20px);} /* Reduz para 2 colunas */
 }
 
 @media screen and (max-width: 599px) { /* Para telas menores, como celulares */
