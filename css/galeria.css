@@ -12,7 +12,7 @@
 
 .imagem {
 	margin: 1%;
-	border-radius: 8px;
+	border-radius: 16px;
 	padding: 8px;
 	width: calc(23% - 20px); /* Divide em 4 colunas, menos o espaçamento */
 	overflow: hidden;
@@ -26,7 +26,7 @@
 	transition: transform 0.5s; /* Efeito de zoom no hover */
 	}
 
-.imagem:hover img {transform: scale(1.05);}
+.imagem:hover img {transform: scale(1.07);}
 
 .legenda{text-align: center;}
 
