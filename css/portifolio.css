@@ -1,6 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
 
+	.port-subtitulo2{
+		font-family: "Bree Serif", serif;
+		font-weight: normal;
+		margin: 8px;
+		font-size: 2em;
+		color: #730E16;
+		}
+
 /*------ Início DESKTOP ------*/
 @media screen and (min-width:1024px){
 
@@ -30,14 +38,6 @@
 		margin-bottom: 4px;
 		float: left;
 		border-radius: 8px;
-		}
-	
-	.port-subtitulo2{
-		font-family: "Bree Serif", serif;
-		font-weight: normal;
-		margin: 8px;
-		font-size: 2em;
-		color: #730E16;
 		}
 	
 	.servico {
