@@ -24,6 +24,7 @@
 	}
 
 	.caso img {
+		width: 100%;
 		max-width: 200px;
 		margin-right: 20px;
 		margin-bottom: 4px;
@@ -31,7 +32,16 @@
 		border-radius: 8px;
 		}
 	
+	.port-subtitulo2{
+		font-family: "Bree Serif", serif;
+		font-weight: normal;
+		margin: 8px;
+		font-size: 2em;
+		color: #730E16;
+		}
+	
 	.servico {
+		margin: 0;
 		font-size: 0.8em;
 		color: grey;
 		}
@@ -69,6 +79,7 @@
 	}
 
 	.caso img {
+		width: 100%;
 		max-width: 200px;
 		margin-right: 20px;
 		float: left;
@@ -112,7 +123,10 @@
 	background-color: #EDEDED;
 	}
 
-	.caso img{border-radius: 8px;}
+	.caso img{
+		width: 100%;
+		border-radius: 8px;
+		}
 
 	.servico {
 		font-size: 0.8em;
