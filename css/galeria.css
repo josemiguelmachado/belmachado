@@ -16,6 +16,7 @@
 	padding: 8px;
 	width: calc(23% - 20px); /* Divide em 4 colunas, menos o espaçamento */
 	overflow: hidden;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	background-color: #EDEDED;
 	}
 
@@ -23,12 +24,15 @@
 	width: 100%;
 	border-radius: 8px;
 	height: auto;
-	transition: transform 0.5s; /* Efeito de zoom no hover */
+	/*transition: transform 0.5s;  Efeito de zoom no hover */
 	}
 
-.imagem:hover img {transform: scale(1.07);}
+/*.imagem:hover img {transform: scale(1.07);}*/
 
-.legenda{text-align: center;}
+.legenda{
+	margin-top:8px;
+	text-align: center;
+	}
 
 @media screen and (max-width: 1023px) { /* Para telas menores, como tablets */
 	
